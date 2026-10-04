@@ -1,0 +1,4 @@
+-r requirements.txt
+# Notebook tools are not pinned: the numerical verification ran in Python.
+ipykernel
+jupyterlab

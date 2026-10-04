@@ -1,0 +1,33 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local editor, system and environment files
+.vscode/
+.idea/
+.DS_Store
+.env
+.env.*
+
+# Keep raw data local; provenance and expected filenames are documented.
+data/raw/*
+!data/raw/.gitkeep
+
+# Private working notes and duplicate uploads
+PROJECT_STATE*.md
+project_sources/
+upload/
+
+# LaTeX build files; retain the report and all figure PDFs.
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+reports/latex/main.pdf
